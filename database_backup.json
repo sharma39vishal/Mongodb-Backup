@@ -1,0 +1,2320 @@
+{
+  "samples": [],
+  "logs": [],
+  "teachers": [
+    {
+      "_id": "65649580baf69a0350a7b833",
+      "teacher_id": "1",
+      "name": "Demo Admin",
+      "email": "demoadmin@gmail.com",
+      "phone_no": "+918794561231",
+      "subjects": [],
+      "password": "$2a$10$d3zLRS9B/Hr2inGfMNLfKu20tLYyaHa/pDfIhP4Wjf848SIR.fYG2",
+      "updated_at": "2023-11-18T18:09:36.000Z",
+      "created_by": "mongodb direct",
+      "created_at": "2023-11-18T18:09:36.000Z",
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "admin_role": "Admin"
+    },
+    {
+      "_id": "6582d0d80d73840687bcc7c9",
+      "teacher_id": "5",
+      "name": "Aman Kant Sahu",
+      "email": "amansahu5051@gmail.com",
+      "phone_no": "9876543210",
+      "admin_role": "Teacher",
+      "department": "MBA",
+      "faculty": "Sd",
+      "subjects": [
+        {
+          "subject_id": "6564a1816d1cbaaed2f05f0b",
+          "permission": "write",
+          "_id": "658acf5eb94fab3ee1d92bec"
+        }
+      ],
+      "password": "$2b$10$qjoXHTCqG/lrglxu2yZ7QOvSi286cgYV3QWkE8RvlSRUt5NEtbb7S",
+      "created_at_and_by": {
+        "timestamp": "2023-12-20T11:32:40.657Z"
+      },
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "updated_at": "2023-12-20T11:32:40.657Z",
+      "__v": 0
+    },
+    {
+      "_id": "658684e232b307a5ed5d8db5",
+      "teacher_id": "4",
+      "name": "Arnav Bahadur",
+      "email": "bahadurarnav2203@gmail.com",
+      "phone_no": "+917999387389",
+      "admin_role": "Teacher",
+      "department": "cse",
+      "faculty": "engineering",
+      "subjects": [],
+      "password": "$2b$10$IJSmDf1NLC3u4ZQvoNvbiu.otGVIbhppCPi0lds61SdR.NIMeCfp2",
+      "created_at_and_by": {
+        "timestamp": "2023-12-23T06:57:38.571Z"
+      },
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "updated_at": "2023-12-23T06:57:38.571Z",
+      "__v": 0
+    },
+    {
+      "_id": "6586854e32b307a5ed5d8dc3",
+      "teacher_id": "7",
+      "name": "abrar khan",
+      "email": "abrakadabra@gmail.com",
+      "phone_no": "+917999387389",
+      "admin_role": "Teacher",
+      "department": "civil",
+      "faculty": "engineering",
+      "subjects": [],
+      "password": "$2b$10$jaV4N/9YtX6rFuTnCCxJ0OGXbI5EPUBwLFVrsmFF2tOQovR4qH5RK",
+      "created_at_and_by": {
+        "timestamp": "2023-12-23T06:59:26.131Z"
+      },
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "updated_at": "2023-12-23T06:59:26.131Z",
+      "__v": 0
+    },
+    {
+      "_id": "65868a2732b307a5ed5d9c6d",
+      "teacher_id": "69",
+      "name": "neha sexy",
+      "email": "neha@gmail.com",
+      "phone_no": "6969696969",
+      "admin_role": "Teacher",
+      "department": "civil",
+      "faculty": "engineering",
+      "subjects": [],
+      "password": "$2b$10$Hkb/he1noYLZkI0v2DzOzuq9RRLKTix.VOpU.ORUfyVnLLaT60e7O",
+      "created_at_and_by": {
+        "timestamp": "2023-12-23T07:20:07.136Z"
+      },
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "updated_at": "2023-12-23T07:20:07.136Z",
+      "__v": 0
+    },
+    {
+      "_id": "65868a6032b307a5ed5d9c71",
+      "teacher_id": "6",
+      "name": "neha ",
+      "email": "neha@gmail.com",
+      "phone_no": "6969696969",
+      "admin_role": "Teacher",
+      "department": "civilsd",
+      "faculty": "engineering",
+      "subjects": [
+        {
+          "_id": "6564a1816d1cbaaed2f05f0b"
+        }
+      ],
+      "password": "$2b$10$6PwMqRDlGIytcOXGR5WPaelNrDcoKIZMSxFbcYGp8LXrjejj5FLXe",
+      "created_at_and_by": {
+        "timestamp": "2023-12-23T07:21:04.409Z"
+      },
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "updated_at": "2023-12-23T07:21:04.409Z",
+      "__v": 0
+    },
+    {
+      "_id": "658690dd32b307a5ed5d9c79",
+      "teacher_id": "69",
+      "name": "Arnav Bahadur",
+      "email": "bahadurarnav2203@gmail.com",
+      "phone_no": "+917999387389",
+      "admin_role": "Teacher",
+      "department": "ef",
+      "faculty": "sfhdds",
+      "subjects": [
+        {
+          "subject_id": "6564a1816d1cbaaed2f05f0b",
+          "permission": "write",
+          "_id": "658ad2147a0327ff32ee7c4d"
+        }
+      ],
+      "password": "$2b$10$WLyIBvHxZzEDUO1U3ZEG6O/SERgMVBtyF4h4bjNBTLjZAbGrmHyb2",
+      "created_at_and_by": {
+        "timestamp": "2023-12-23T07:48:45.320Z"
+      },
+      "rating": {
+        "star": 0,
+        "participants": 0
+      },
+      "updated_at": "2023-12-23T07:48:45.320Z",
+      "__v": 0
+    }
+  ],
+  "reschedulerequests": [],
+  "subjects": [
+    {
+      "_id": "6564a1816d1cbaaed2f05f0b",
+      "subject_name": "Compiler new design",
+      "course_code": "CB703084",
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "A",
+      "day": [
+        {
+          "name": "Monday",
+          "count": 3,
+          "_id": "658bc0de8bed036d5d8abb6a"
+        },
+        {
+          "name": "Wednesday",
+          "count": 3,
+          "_id": "658bc0de8bed036d5d8abb6c"
+        },
+        {
+          "name": "Friday",
+          "count": 4,
+          "_id": "658bc0de8bed036d5d8abb6d"
+        },
+        {
+          "name": "Saturday",
+          "count": 0,
+          "_id": "658bc0de8bed036d5d8abb6e"
+        }
+      ],
+      "updateAttendance": [],
+      "extraClass": [],
+      "rescheduleClass": [],
+      "__v": 2,
+      "teacher_id": "6582d0d80d73840687bcc7c9",
+      "lecture_dates": [
+        {
+          "date": "2023-12-27T00:00:00.000Z",
+          "count": 3,
+          "_id": "658c1658f0a47122378c9d1a"
+        },
+        {
+          "date": "2023-12-30T00:00:00.000Z",
+          "count": 0,
+          "_id": "658fa291543377de8d6f5a9a"
+        }
+      ],
+      "created_at_and_by": {
+        "admin_name": "admin",
+        "date": "2023-12-30T06:05:26.268Z"
+      },
+      "updated_at_and_by": {
+        "admin_name": "admin",
+        "date": "2023-12-30T06:05:26.268Z"
+      }
+    }
+  ],
+  "attendancerequests": [],
+  "complaints": [],
+  "students": [
+    {
+      "_id": "658fb1646efbba380bab5630",
+      "name": "ABHINAV SHUKLA",
+      "enrollment_no": "EN20CS306001",
+      "scholar_no": "2002261",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253811",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$0RFVSYus6fSaakUryMqQguj.XAHFwqjVnCu7Kd37lmwcF/KtwxDRm",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.264Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.264Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5631",
+      "name": "ABHISHEK PARMAR",
+      "enrollment_no": "EN20CS306002",
+      "scholar_no": "2002262",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253812",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$Ojq94zXKQAh8h1ivH55deum956aFuSOcUHpX42A8AyBvg4HaSuMf6",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.265Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.266Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5632",
+      "name": "ADITI GUPTA",
+      "enrollment_no": "EN20CS306003",
+      "scholar_no": "2002263",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253813",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$hXXO.O70uEG7WfPG6G1P.OW3fkwY4TycogeTM66mD2vgOyLcnCOWK",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.266Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.266Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5633",
+      "name": "ADITYA VERMA",
+      "enrollment_no": "EN20CS306004",
+      "scholar_no": "2002264",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253814",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$hJyBVLSHUdOKKlizNTsEsetRCbE4pE/DIjESVRyUmxAZwiVewJuY6",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.267Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.267Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5634",
+      "name": "AKSHIT MANORIYA",
+      "enrollment_no": "EN20CS306005",
+      "scholar_no": "2002265",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253815",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$UM4tw2IZPsLDcX0PCAfAPOolxMaKT.Q7g7hAK2EWVGWz.tUkvMkYC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.267Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.267Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5635",
+      "name": "AMAN KANT SAHU",
+      "enrollment_no": "EN20CS306006",
+      "scholar_no": "2002266",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253816",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$gXkaxqu6LeAvnFkew3brZOZTAs5hzqGRjJtRWhCPaGYu4Mlq3Tw/G",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.267Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.267Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5636",
+      "name": "AMITESH SHARMA",
+      "enrollment_no": "EN20CS306007",
+      "scholar_no": "2002267",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253817",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$FzyVy4TATK5ZOz8QCliMJuDmr9lk7v4gHtHEIGcApu.9HnnlnDsNK",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.267Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.267Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5637",
+      "name": "ANUJ KATRE",
+      "enrollment_no": "EN20CS306008",
+      "scholar_no": "2002268",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253818",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$RnpdJCOIr9x9kcZHOz6AMumjhoK3LWYL.MTa2fHV57U1Ty0k8XjiO",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.268Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.268Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5638",
+      "name": "ARNAV BAHADUR",
+      "enrollment_no": "EN20CS306009",
+      "scholar_no": "2002269",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253819",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$EHGc/BOmxvn2wnG8ZsXvC.pg1tO0o54B1kgyw7xQ6CR3js0NquEM2",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.269Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5639",
+      "name": "ARYA TIWARI",
+      "enrollment_no": "EN20CS306010",
+      "scholar_no": "2002270",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253820",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$vUYzv81WqEVEQCjv2raiguGHmpuzjhisIfk1YpUTKjFTjJ9HGU8Jm",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.269Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab563a",
+      "name": "ARYAN KAMTHAN",
+      "enrollment_no": "EN20CS306011",
+      "scholar_no": "2002271",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253821",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$I7jwWutK8TD4FaKwvrLIke6ZBgnQbu2.RkL1Ay386Th16SttYktwC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.269Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab563b",
+      "name": "ASHA NAGAR",
+      "enrollment_no": "EN20CS306012",
+      "scholar_no": "2002272",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253822",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$yTkTfywHz30qfoLxGWH9oOQn/Z17ujDx7E775AdVVfPSWqWyQk0B6",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.269Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.269Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab563c",
+      "name": "ASHWIN JAISWAL",
+      "enrollment_no": "EN20CS306013",
+      "scholar_no": "2002273",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253823",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$j.ifGcRM4CacvJsMSkoB1eLjVItPm7g0Uq7CGDx70BjaEqGoMDBBu",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.270Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.270Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab563d",
+      "name": "BHANUPRATAP PARMAR",
+      "enrollment_no": "EN20CS306014",
+      "scholar_no": "2002274",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253824",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$gCP.XINlaSwQnf9ZCB/RZeGpohtrHpkqFcoZl3E24PWfcsoo5D9ce",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.270Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.270Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab563e",
+      "name": "CHAHAT NAGAR",
+      "enrollment_no": "EN20CS306015",
+      "scholar_no": "2002275",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253825",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$CRyZ1tZzDo73.4BERDBRY.zdW0Xg6FBaLaSgivhP4oFfrFRwij/Ii",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.270Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.270Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab563f",
+      "name": "CHETNA AHIR",
+      "enrollment_no": "EN20CS306016",
+      "scholar_no": "2002276",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253826",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$22lxAmLo5zrJWuJF07I0me6DYZ5ROKo7HVelEY69I4rMTRsIAZu/O",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.270Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.270Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5640",
+      "name": "CHIRAG JAIN",
+      "enrollment_no": "EN20CS306017",
+      "scholar_no": "2002277",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253827",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$iHTBNRo490ehYtj6yX.YAuv3x8bRhBJ1diFL0z//zUJ4txgu85nly",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.271Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.271Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5641",
+      "name": "DEVAM DEVANI",
+      "enrollment_no": "EN20CS306018",
+      "scholar_no": "2002278",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253828",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$C5.VIWOYukChGS8aYC6Td.SZFYNbg6b6CUESCiXWKUX4bOjMwJUhW",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.271Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.271Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5642",
+      "name": "DISHIKA JAIN",
+      "enrollment_no": "EN20CS306019",
+      "scholar_no": "2002279",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253829",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$iKW1lzs.hj.6P8KNns5cBOXv59NWgc6hIEe7LKmMykgvf9nRS773e",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.271Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.271Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5643",
+      "name": "EKANSH VEDI",
+      "enrollment_no": "EN20CS306020",
+      "scholar_no": "2002280",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253830",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$P.BurxvcpTWOrW238XSP9uwnTuMJHmL18CmG5qzoPcvn3NIMJFxN6",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.271Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.271Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5644",
+      "name": "HARSH SETH",
+      "enrollment_no": "EN20CS306021",
+      "scholar_no": "2002281",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253831",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$UJBo0DW1tuyfKu7vno64n.1xw3gWqpKrhYSUveQB6ZmuwPToKP5hC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.271Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.271Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5645",
+      "name": "HUSAIN RAMPURAWALA",
+      "enrollment_no": "EN20CS306022",
+      "scholar_no": "2002282",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253832",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$i6SjtDyfeOo.xrFAxbNxNuA2OnIH8V3MnMNyiTip894z4u2q969Y2",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.272Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5646",
+      "name": "JANHVI MATKAR",
+      "enrollment_no": "EN20CS306023",
+      "scholar_no": "2002283",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253833",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$P1uGWDdEKqr0IxLlrJI9pOFTGnPWBVkzM07bqXVTwyEntBmC/BpAC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.272Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5647",
+      "name": "KALASH JAIN",
+      "enrollment_no": "EN20CS306024",
+      "scholar_no": "2002284",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253834",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$NUkzPMdLwV/Z.x/LeeBVVeerDXxLzP9aj97t5sPWEoJirsypf04kG",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.272Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5648",
+      "name": "KESHAV GUPTA",
+      "enrollment_no": "EN20CS306025",
+      "scholar_no": "2002285",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253835",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$VfIM/5yESIpkqeGTfgGJKuppXrT1O7.Cxdlh3FH1wP.Ag4xLCc27G",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.272Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5649",
+      "name": "KETAV PAGAR",
+      "enrollment_no": "EN20CS306026",
+      "scholar_no": "2002286",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253836",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$/08MeXgZUB/Np09BHGq1R./PWsRfvYQc5E4n7bY8x65YEdP8LWSfu",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.272Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab564a",
+      "name": "KRISHNA SINGH GOUD",
+      "enrollment_no": "EN20CS306027",
+      "scholar_no": "2002287",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253837",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$GJ3TWHicpLpPA81qEVBv6ehS/Il5WcbePjFTtechmrkfK59ReaG9O",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.272Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.272Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab564b",
+      "name": "MADHUR PARWAL",
+      "enrollment_no": "EN20CS306028",
+      "scholar_no": "2002288",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253838",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$ujwL/QmgB/b2tYVm7heKLer1xrUzpsneJWeBFnIkrWVLyi8zoo41u",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.273Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.273Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab564c",
+      "name": "MANAS GUPTA",
+      "enrollment_no": "EN20CS306029",
+      "scholar_no": "2002289",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253839",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$V.Nbc5qjrvHNcrO4NrUyUe5t2DLBC4MSIhCaVNnvKarHRo1rrGIZi",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.273Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.273Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab564d",
+      "name": "MANAS SINGH",
+      "enrollment_no": "EN20CS306030",
+      "scholar_no": "2002290",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253840",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$TIJuNJtjQiALaLQ5hsT/hOJDNtfwf08Sl62K1hQujTGuHaNT4zTj.",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.273Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.273Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab564e",
+      "name": "MAYANK VERMA",
+      "enrollment_no": "EN20CS306031",
+      "scholar_no": "2002291",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253841",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$75FaLQd1h5l6AlfSKUSD.uebl5oRn/nXNjw063KCZREYzrzzsnqg6",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.273Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.273Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab564f",
+      "name": "Mayukh Jain",
+      "enrollment_no": "EN20CS306032",
+      "scholar_no": "2002292",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253842",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$kP98ewFVDlt7Q8SPJvvl0uix/IWl4CobVYYO4ROfYFfnJfJRgEkSW",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.273Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.273Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5650",
+      "name": "MD. ZEESHAN KHAN",
+      "enrollment_no": "EN20CS306033",
+      "scholar_no": "2002293",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253843",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$LiTq5gccyZ1nyZk4CaLeee1JffRSuQqtdP4FebbsA4IpPd4XN5eDG",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.274Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.274Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5651",
+      "name": "MIHI PAL",
+      "enrollment_no": "EN20CS306034",
+      "scholar_no": "2002294",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253844",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$W4cV5C69XapF/tZ5TKobmOcKcSUETetkFa1N7VUEkKaCDP0ZsiYKK",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.274Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.274Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5652",
+      "name": "MITHLESH PRASAD",
+      "enrollment_no": "EN20CS306035",
+      "scholar_no": "2002295",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253845",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$pvJPSXMoyc/LYqwVIBLKS.4jGDB9U8VOhT6OIdJGTzyDt3zqmhbG.",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.274Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.274Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5653",
+      "name": "MUKTA GUPTA",
+      "enrollment_no": "EN20CS306036",
+      "scholar_no": "2002296",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253846",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$QBgSoAvB6R/4DBsQIanqKusuy172UTHNDlV5QEUihxHgxamZjJZGW",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.275Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.275Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5654",
+      "name": "MUSTAFA SANAVADWALA",
+      "enrollment_no": "EN20CS306037",
+      "scholar_no": "2002297",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253847",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$CwkNzwEAVc1ir2P1t.JUZ.ttWPnics.RYfp7rCFlxGyOYrYl4z6mC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.275Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.275Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5655",
+      "name": "NEHANSHU AJMERA",
+      "enrollment_no": "EN20CS306038",
+      "scholar_no": "2002298",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253848",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$SzyweD5hK26fs56OfAecheiqNURimz2S.5Mu0EDnW//03pOi65aM.",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.275Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.275Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5656",
+      "name": "NIKITA CHOUDHARY",
+      "enrollment_no": "EN20CS306039",
+      "scholar_no": "2002299",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253849",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$shS7.6jirwu.G2t8Sdf2J.Sva6c5IftonV5cculeruAaqEBd3Kqp6",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.276Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.276Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5657",
+      "name": "NISHI AGRAWAL",
+      "enrollment_no": "EN20CS306040",
+      "scholar_no": "2002300",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253850",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$qrpQYnDuVROM5eEgy4SSaeLuHvjYUKTa.O5E.MmixiHGsp5WUAEde",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.277Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.277Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5658",
+      "name": "PAYAL SHEKHAWAT",
+      "enrollment_no": "EN20CS306041",
+      "scholar_no": "2002301",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253851",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$jw/SLCqWHUl5ihDephG4L.m1AjDAv2TNOSuHImzocQzITpXfF/bgm",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.277Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.277Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5659",
+      "name": "PRAKHAR MEHTA",
+      "enrollment_no": "EN20CS306042",
+      "scholar_no": "2002302",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253852",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$9YkEWDsvCCuvF0gUYHEwjO58ZGiXYJGnBzaeA9JnfzNu73drrbIwa",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.278Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab565a",
+      "name": "PRATYUSH GUPTA",
+      "enrollment_no": "EN20CS306043",
+      "scholar_no": "2002303",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253853",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$PWXNg6A1MjGTt/VSrAbyNev4pDmaMWuu2TegDXyc5N40Q/Bym3Qlq",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.278Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab565b",
+      "name": "ROSHNI SHARMA",
+      "enrollment_no": "EN20CS306044",
+      "scholar_no": "2002304",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253854",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$L/wt6xe2.CFMR/BNZtHXme.vNrQcRFiQEAlDdwCmhGxWKlxWEYQ/u",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.278Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab565c",
+      "name": "RUDRAKSH RATHORE",
+      "enrollment_no": "EN20CS306045",
+      "scholar_no": "2002305",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253855",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$4HYqX4i4JsNY7ZjgtWCxN.tK/vjvg/jA6n/amV9/kWDIXw/soi5z2",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.278Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.278Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab565d",
+      "name": "SAGAR BAROD",
+      "enrollment_no": "EN20CS306046",
+      "scholar_no": "2002306",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253856",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$EElbbd0kq4s5XvSjTsFJC.gi8l4/g.4YwP/vBXpHlO0hBCcyd9cjC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.279Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab565e",
+      "name": "SAMARTH DUBEY",
+      "enrollment_no": "EN20CS306047",
+      "scholar_no": "2002307",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253857",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$togQAtmwug01Tyus7w.y.OjhFa9xuRx.nc17YTl2G2.CVY4Xa5y12",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.279Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab565f",
+      "name": "SARFARAJ KHAN",
+      "enrollment_no": "EN20CS306048",
+      "scholar_no": "2002308",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253858",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$3u3tR2v0U2FxhcZQ/jcNpOTz6p0o.Mh.sV1eBBMWjtnYsIbzfnspG",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.279Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5660",
+      "name": "SHOBHIT GUPTA",
+      "enrollment_no": "EN20CS306049",
+      "scholar_no": "2002309",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253859",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$J84N2tpzfmRSX6s1bSEg3euBQ7oR/CBbNFbd89nLwr4Un1DNy98Qi",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.279Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.279Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5661",
+      "name": "SHRASTI GUPTA",
+      "enrollment_no": "EN20CS306050",
+      "scholar_no": "2002310",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253860",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$GS1Fj4q.T6ng/VVGJrN6yOYTmqY9iPVgIhJC.bRWknAh27Ze7CRCu",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.280Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.280Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5662",
+      "name": "SHUBHI AGRAWAL",
+      "enrollment_no": "EN20CS306051",
+      "scholar_no": "2002311",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253861",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$ub2rRuIrWS5YbOJkKzkg6eOaynv3487CFyoMpCcsEqt8dvB/XjZkC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.280Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.280Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5663",
+      "name": "SHYAM PATIDAR",
+      "enrollment_no": "EN20CS306052",
+      "scholar_no": "2002312",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253862",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$oH6QvcT2cx9DE8prFHJ3POWiWW4ZkH.7hb4jJkpycxUvJkwC00P3W",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.280Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.280Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5664",
+      "name": "SIDDHARTH JAISWAL",
+      "enrollment_no": "EN20CS306053",
+      "scholar_no": "2002313",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253863",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$vpiWPM2zxehfDw2G.0Mb4uLQsGr786BedmmlrWf/mBz.aI9PsS4qq",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.280Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.280Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5665",
+      "name": "SPARSH SINGH HURA",
+      "enrollment_no": "EN20CS306054",
+      "scholar_no": "2002314",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253864",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$PI0g0IqzEhk374NSUX6q4e6iVXILgsL9Gp8Addf3dIxdMwh6vnRxK",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.280Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.280Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5666",
+      "name": "TANISHA AGRAWAL",
+      "enrollment_no": "EN20CS306055",
+      "scholar_no": "2002315",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253865",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$1mCNOqZGxyWB8SIL/cLBSO7ykZNS8O5M8r33ALn5KdRaqcQG22Ym2",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.281Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5667",
+      "name": "TANISHA JAIN",
+      "enrollment_no": "EN20CS306056",
+      "scholar_no": "2002316",
+      "email": "en20cs306002@medicaps.ac.in",
+      "phone_no": "7000253866",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$kZWAGGL0viEgp6rbstPilOG6KGcgyM0.IJr6ki8YYztfqVyZ5fprO",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.281Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5668",
+      "name": "VANSHIKA GARG",
+      "enrollment_no": "EN20CS306057",
+      "scholar_no": "2002317",
+      "email": "en20cs306003@medicaps.ac.in",
+      "phone_no": "7000253867",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$JvVBNZHBaGxTbsjbZmKice/a4cZh9Sdvp93mErHFiik3ubmwiPJTS",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.281Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab5669",
+      "name": "VARUN SEN",
+      "enrollment_no": "EN20CS306058",
+      "scholar_no": "2002318",
+      "email": "en20cs306004@medicaps.ac.in",
+      "phone_no": "7000253868",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$hUv5Fws6S6PmauMutBAup.mQeCrDpCiYFOFz.HsM6dp2YldVA0SDK",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.281Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.281Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab566a",
+      "name": "VISHAL SHARMA",
+      "enrollment_no": "EN20CS306059",
+      "scholar_no": "2002319",
+      "email": "en20cs306005@medicaps.ac.in",
+      "phone_no": "7000253869",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$T117VtUmSWHblJS0Id5teug1K3r0nY66SGnhE5PB/8lmhlME5ZoXm",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.282Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.282Z",
+      "__v": 0
+    },
+    {
+      "_id": "658fb1646efbba380bab566b",
+      "name": "YASH PANDEY",
+      "enrollment_no": "EN20CS306060",
+      "scholar_no": "2002320",
+      "email": "en20cs306001@medicaps.ac.in",
+      "phone_no": "7000253870",
+      "programme": "Btech",
+      "faculty": "engineering",
+      "specialisation": "Business Systems",
+      "year": 2020,
+      "branch": "CSBS",
+      "section": "A",
+      "batch": "B",
+      "password": "$2b$10$gFD38EeKaLYbzkF84qpuuOSaC4s69cUCh1WfbB0WRWJOoB8XXlStC",
+      "created_at_and_by": {
+        "admin_name": "65649580baf69a0350a7b833",
+        "timestamp": "2023-12-30T05:57:56.282Z"
+      },
+      "subjects": [],
+      "ratings": [],
+      "updated_at": "2023-12-30T05:57:56.282Z",
+      "__v": 0
+    }
+  ],
+  "academiccalendars": [
+    {
+      "_id": "658bc0608bed036d5d8aba41",
+      "date": "2023-12-27T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658bc0608bed036d5d8aba42",
+      "date": "2023-12-28T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658bc0608bed036d5d8aba43",
+      "date": "2023-12-29T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b8f",
+      "date": "2023-12-29T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b90",
+      "date": "2023-12-30T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b91",
+      "date": "2023-12-31T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b92",
+      "date": "2024-01-01T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b93",
+      "date": "2024-01-02T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b94",
+      "date": "2024-01-03T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b95",
+      "date": "2024-01-04T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b96",
+      "date": "2024-01-05T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b97",
+      "date": "2024-01-06T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b98",
+      "date": "2024-01-07T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b99",
+      "date": "2024-01-08T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b9a",
+      "date": "2024-01-09T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b9b",
+      "date": "2024-01-10T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b9c",
+      "date": "2024-01-11T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b9d",
+      "date": "2024-01-12T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b9e",
+      "date": "2024-01-13T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1b9f",
+      "date": "2024-01-14T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba0",
+      "date": "2024-01-15T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba1",
+      "date": "2024-01-16T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba2",
+      "date": "2024-01-17T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba3",
+      "date": "2024-01-18T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba4",
+      "date": "2024-01-19T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba5",
+      "date": "2024-01-20T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba6",
+      "date": "2024-01-21T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba7",
+      "date": "2024-01-22T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba8",
+      "date": "2024-01-23T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1ba9",
+      "date": "2024-01-24T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1baa",
+      "date": "2024-01-25T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bab",
+      "date": "2024-01-26T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bac",
+      "date": "2024-01-27T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bad",
+      "date": "2024-01-28T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bae",
+      "date": "2024-01-29T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1baf",
+      "date": "2024-01-30T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb0",
+      "date": "2024-01-31T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb1",
+      "date": "2024-02-01T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb2",
+      "date": "2024-02-02T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb3",
+      "date": "2024-02-03T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb4",
+      "date": "2024-02-04T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb5",
+      "date": "2024-02-05T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb6",
+      "date": "2024-02-06T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb7",
+      "date": "2024-02-07T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb8",
+      "date": "2024-02-08T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bb9",
+      "date": "2024-02-09T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bba",
+      "date": "2024-02-10T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bbb",
+      "date": "2024-02-11T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bbc",
+      "date": "2024-02-12T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bbd",
+      "date": "2024-02-13T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bbe",
+      "date": "2024-02-14T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bbf",
+      "date": "2024-02-15T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc0",
+      "date": "2024-02-16T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc1",
+      "date": "2024-02-17T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc2",
+      "date": "2024-02-18T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc3",
+      "date": "2024-02-19T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc4",
+      "date": "2024-02-20T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc5",
+      "date": "2024-02-21T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc6",
+      "date": "2024-02-22T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc7",
+      "date": "2024-02-23T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc8",
+      "date": "2024-02-24T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bc9",
+      "date": "2024-02-25T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bca",
+      "date": "2024-02-26T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bcb",
+      "date": "2024-02-27T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bcc",
+      "date": "2024-02-28T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bcd",
+      "date": "2024-02-29T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bce",
+      "date": "2024-03-01T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bcf",
+      "date": "2024-03-02T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd0",
+      "date": "2024-03-03T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd1",
+      "date": "2024-03-04T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd2",
+      "date": "2024-03-05T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd3",
+      "date": "2024-03-06T00:00:00.000Z",
+      "day": "Wednesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd4",
+      "date": "2024-03-07T00:00:00.000Z",
+      "day": "Thursday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd5",
+      "date": "2024-03-08T00:00:00.000Z",
+      "day": "Friday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd6",
+      "date": "2024-03-09T00:00:00.000Z",
+      "day": "Saturday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd7",
+      "date": "2024-03-10T00:00:00.000Z",
+      "day": "Sunday",
+      "holiday": true,
+      "event": "Sunday",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd8",
+      "date": "2024-03-11T00:00:00.000Z",
+      "day": "Monday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    },
+    {
+      "_id": "658fa2782460f5207ecd1bd9",
+      "date": "2024-03-12T00:00:00.000Z",
+      "day": "Tuesday",
+      "holiday": false,
+      "event": "No event",
+      "__v": 0
+    }
+  ],
+  "leaveteacherattendances": [],
+  "alerts": [
+    {
+      "_id": "65688b3eee028ab54b44059e",
+      "title": "Alert Title",
+      "alert": "Title description",
+      "created_by": "65649580baf69a0350a7b833",
+      "created_at": "2023-11-30T13:16:46.490Z",
+      "__v": 0
+    },
+    {
+      "_id": "65688c3dee028ab54b4408a7",
+      "title": "nehanshu title",
+      "alert": "nehanshu desc",
+      "created_by": "65649580baf69a0350a7b833",
+      "created_at": "2023-11-30T13:21:01.409Z",
+      "__v": 0
+    },
+    {
+      "_id": "65688c6e9ef8e5a2e13d555a",
+      "title": "rere t",
+      "alert": "re d",
+      "created_by": "65649580baf69a0350a7b833",
+      "created_at": "2023-11-30T13:21:50.562Z",
+      "__v": 0
+    }
+  ]
+}
