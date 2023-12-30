@@ -72,10 +72,19 @@ mongoose.connect(process.env.MONGO_URL)
     .then(() => {
         console.log('MongoDB connected');
 
-
-
         // Schedule cron job to run every 8 hours
         cron.schedule('0 */12 * * *', backupandmail);
+
+        app.get('/', (req, res) => {
+            res.send('Hello World!');
+        });
+
+        // app.get('/download', (req, res) => {
+        //     // donwload database_backup.json
+        //     res.download(backupFilePath);
+        // });
+
+        app.get('/backupandmail', backupandmail);
 
 
         app.listen(PORT, () => {
